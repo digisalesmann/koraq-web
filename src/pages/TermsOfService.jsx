@@ -174,11 +174,11 @@ const TermsOfService = () => {
               Koraq uses third-party services to deliver its features:
             </p>
             <ul style={{color:'#ccc', marginBottom:20}}>
-              <li>• <strong>Firebase (Google)</strong>: authentication, cloud database, push notifications</li>
-              <li>• <strong>Flutterwave</strong>: payment processing for Premium subscriptions</li>
-              <li>• <strong>OpenAI</strong>: AI-powered features (Priority Inbox, Koraq AI Chat)</li>
-              <li>• <strong>Termii</strong>: SMS delivery for debt reminders</li>
-              <li>• <strong>Google Gmail API</strong>: read-only inbox access for Priority Inbox</li>
+              <li><strong>Firebase (Google)</strong>: authentication, cloud database, push notifications</li>
+              <li><strong>Flutterwave</strong>: payment processing for Premium subscriptions</li>
+              <li><strong>OpenAI</strong>: AI-powered features (Priority Inbox, Koraq AI Chat)</li>
+              <li><strong>Termii</strong>: SMS delivery for debt reminders</li>
+              <li><strong>Google Gmail API</strong>: read-only inbox access for Priority Inbox</li>
             </ul>
             <p>
               By using Koraq, you consent to data processing by these providers as described in our Privacy Policy. We do not sell, rent, or trade your data.
