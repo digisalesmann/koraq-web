@@ -181,7 +181,9 @@ const Dashboard = () => {
             <div className="val" style={{ fontSize: '1.2rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
                <Globe size={20} color="#333" /> Nigeria (NG)
             </div>
-            <p style={{ color: '#333', fontSize: '0.75rem', marginTop: '10px', fontWeight: 700 }}>OFFLINE ENGINE ACTIVE</p>
+            <p style={{ color: '#333', fontSize: '0.75rem', marginTop: '10px', fontWeight: 700 }}>
+              All systems operational
+            </p>
           </div>
 
           <div style={{ marginTop: 'auto', padding: '30px', background: 'rgba(255,255,255,0.03)', borderRadius: '24px', border: '1px solid rgba(255,255,255,0.05)' }}>

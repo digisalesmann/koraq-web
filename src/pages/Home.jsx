@@ -2,6 +2,7 @@ import React from 'react';
 import DownloadButton from '../components/DownloadButton';
 import { motion } from 'framer-motion';
 import { ArrowRight, MessageCircle, CheckCircle2, Globe, Shield, Zap } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const fadeInUp = {
@@ -190,9 +191,19 @@ const Home = () => {
           <p style={{ color: '#666', fontSize: '1.1rem', lineHeight: '1.6', marginBottom: '30px' }}>
             Impress your business partners with professional audit logs. Generate clean PDF summaries and share them instantly with a single tap.
           </p>
-          <button style={{ background: 'transparent', border: '1px solid #222', color: '#fff', padding: '14px 28px', borderRadius: '12px', fontWeight: 600 }}>
-             Preview Report
-          </button>
+          <Link to="/reports" style={{
+            background: 'transparent',
+            border: '1px solid #222',
+            color: '#fff',
+            padding: '14px 28px',
+            borderRadius: '12px',
+            fontWeight: 600,
+            display: 'inline-block',
+            textDecoration: 'none',
+            textAlign: 'center'
+          }}>
+            Preview Report
+          </Link>
         </motion.div>
         
         <motion.div className="visual-block" {...fadeInUp} transition={{ delay: 0.2 }}>
