@@ -78,10 +78,15 @@ const Header = () => {
           font-size: 1.25rem;
           letter-spacing: -0.04em;
           text-decoration: none;
-          color: #fff;
+          color: #ff9800;
           display: flex;
           align-items: center;
           gap: 6px;
+          transition: color 0.2s;
+        }
+
+        .kq-brand:hover {
+          color: #fff;
         }
 
         .kq-brand-dot {
@@ -110,16 +115,23 @@ const Header = () => {
           color: #fff;
         }
 
-        .kq-nav-item.active::after {
+        .kq-nav-item::after {
           content: '';
           position: absolute;
+          left: 0;
+          right: 0;
           bottom: -4px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 4px;
-          height: 4px;
+          height: 3px;
           background: #ff9800;
-          border-radius: 50%;
+          border-radius: 2px;
+          opacity: 0;
+          transition: opacity 0.2s, transform 0.2s;
+          transform: scaleX(0.5);
+        }
+
+        .kq-nav-item:hover::after, .kq-nav-item.active::after {
+          opacity: 1;
+          transform: scaleX(1);
         }
 
         .kq-actions {
@@ -129,8 +141,8 @@ const Header = () => {
         }
 
         .btn-download {
-          background: #fff;
-          color: #000;
+          background: #ff9800;
+          color: #fff;
           font-size: 0.8rem;
           font-weight: 700;
           padding: 10px 18px;
@@ -140,11 +152,15 @@ const Header = () => {
           align-items: center;
           gap: 4px;
           transition: all 0.3s ease;
+          box-shadow: 0 2px 12px rgba(255,152,0,0.10);
         }
 
         .btn-download:hover {
+          background: #fff;
+          color: #ff9800;
+          border: 1px solid #ff9800;
           transform: translateY(-2px);
-          box-shadow: 0 10px 20px rgba(255,255,255,0.1);
+          box-shadow: 0 10px 20px rgba(255,152,0,0.12);
         }
 
         .kq-menu-trigger {
@@ -226,7 +242,7 @@ const Header = () => {
           </div>
 
           <div className="kq-actions">
-            <a href="https://play.google.com" className="btn-download">
+            <a href="https://firebasestorage.googleapis.com/v0/b/koraq-9cd16.firebasestorage.app/o/app-debug.apk?alt=media&token=cdbe63ad-f89f-4e2c-8a69-b45067913764" className="btn-download">
               Download <ArrowUpRight size={14} />
             </a>
             
@@ -260,8 +276,8 @@ const Header = () => {
             
             <div className="kq-mobile-footer">
               <p style={{ color: '#444', marginBottom: '1rem', fontSize: '0.9rem' }}>Business profit tracking, simplified.</p>
-              <a href="#" className="btn-download" style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
-                Get Koraq Pro
+              <a href="https://firebasestorage.googleapis.com/v0/b/koraq-9cd16.firebasestorage.app/o/app-debug.apk?alt=media&token=cdbe63ad-f89f-4e2c-8a69-b45067913764" className="btn-download" style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
+                Download App
               </a>
             </div>
           </motion.div>

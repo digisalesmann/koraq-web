@@ -1,4 +1,5 @@
 import React from 'react';
+import DownloadButton from '../components/DownloadButton';
 import { motion } from 'framer-motion';
 import { ArrowRight, MessageCircle, CheckCircle2, Globe, Shield, Zap } from 'lucide-react';
 
@@ -135,9 +136,9 @@ const Home = () => {
         </motion.h1>
         <motion.div className="hero-sub" {...fadeInUp} transition={{ delay: 0.2 }}>
           <p>The high-fidelity ledger for modern Nigerian trade. Track every kobo with a zero-latency interface built for growth.</p>
-          <button className="btn-primary" style={{ marginTop: '40px', padding: '20px 48px', borderRadius: '100px' }}>
+          <DownloadButton className="btn-primary" style={{ marginTop: '40px', padding: '20px 48px', borderRadius: '100px' }}>
             Get Started <ArrowRight size={20} style={{ marginLeft: 12 }} />
-          </button>
+          </DownloadButton>
         </motion.div>
       </section>
 
@@ -210,7 +211,6 @@ const Home = () => {
             We don't want your data. Koraq uses bank-grade local storage to keep your financial secrets exactly where they belong, on your device.
           </p>
           <div style={{ display: 'flex', gap: '15px' }}>
-             <Shield size={32} color="#3b82f6" />
              <Globe size={32} color="#333" />
           </div>
         </motion.div>
@@ -231,9 +231,10 @@ const Home = () => {
           <p style={{ color: '#444', margin: '30px auto', maxWidth: '400px', fontWeight: 700 }}>
             Join the elite circle of Nigerian merchants tracking with precision.
           </p>
-          <button className="btn-primary" style={{ padding: '24px 64px', fontSize: '1.2rem', borderRadius: '20px' }}>
+          {/* Use DownloadButton for working download */}
+          <DownloadButton className="btn-primary" style={{ padding: '24px 64px', fontSize: '1.2rem', borderRadius: '20px' }}>
             Download Now
-          </button>
+          </DownloadButton>
         </motion.div>
       </section>
     </div>

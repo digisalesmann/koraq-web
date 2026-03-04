@@ -183,10 +183,6 @@ const Reports = () => {
           style={{ marginTop: '80px', textAlign: 'center' }}
           {...fadeInUp}
         >
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '40px', color: '#222' }}>
-            <Share2 size={32} />
-            <BarChart3 size={32} />
-          </div>
           <p style={{ color: '#444', fontSize: '0.9rem', marginTop: '24px', maxWidth: '500px', marginInline: 'auto' }}>
             Koraq generates real-time business health scores. For live interactive charts and full PDF exports, please use the Koraq mobile app.
           </p>

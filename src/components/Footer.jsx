@@ -184,7 +184,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://wa.me/yourlink" className="kq-f-link">
+                <a href="https://wa.me/2347044045151" className="kq-f-link">
                   Support WhatsApp <MessageCircle size={14} />
                 </a>
               </li>

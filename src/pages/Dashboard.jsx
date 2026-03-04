@@ -186,7 +186,7 @@ const Dashboard = () => {
 
           <div style={{ marginTop: 'auto', padding: '30px', background: 'rgba(255,255,255,0.03)', borderRadius: '24px', border: '1px solid rgba(255,255,255,0.05)' }}>
              <p style={{ fontSize: '0.85rem', color: '#666', lineHeight: '1.5' }}>
-               "Your business is local. Your data should be too. Koraq ensures zero cloud exposure."
+               "Your data is securely encrypted and synced via Google Cloud."
              </p>
           </div>
         </motion.div>

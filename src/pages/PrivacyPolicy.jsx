@@ -189,11 +189,11 @@ const PrivacyPolicy = () => {
               Koraq uses the following third-party services to power its features. Each service operates under its own privacy policy:
             </p>
             <ul className="policy-list">
-              <li>• <strong style={{color:'#ccc'}}>Firebase (Google)</strong>: authentication, cloud database, push notifications, and cloud functions</li>
-              <li>• <strong style={{color:'#ccc'}}>Flutterwave</strong>: payment processing for Premium subscriptions. We do not store your card details</li>
-              <li>• <strong style={{color:'#ccc'}}>OpenAI</strong>: AI-powered email scoring (Priority Inbox) and Koraq AI Chat. Only anonymised email metadata and your chat messages are sent</li>
-              <li>• <strong style={{color:'#ccc'}}>Termii</strong>: SMS delivery for debt payment reminders, using only the phone number you provide</li>
-              <li>• <strong style={{color:'#ccc'}}>Google Gmail API</strong>: read-only inbox access for Priority Inbox, as described above</li>
+              <li>• <strong style={{color:'#ccc'}}>Firebase (Google):</strong> authentication, cloud database, push notifications, and cloud functions</li>
+              <li>• <strong style={{color:'#ccc'}}>Flutterwave:</strong> payment processing for Premium subscriptions. We do not store your card details</li>
+              <li>• <strong style={{color:'#ccc'}}>OpenAI:</strong> AI-powered features (Priority Inbox, Koraq Chat). Only anonymized email metadata and chat messages are sent</li>
+              <li>• <strong style={{color:'#ccc'}}>Termii:</strong> SMS delivery for debt payment reminders, using only the phone number you provide</li>
+              <li>• <strong style={{color:'#ccc'}}>Google Gmail API:</strong> read-only inbox access for Priority Inbox, as described above</li>
             </ul>
           </section>
 
