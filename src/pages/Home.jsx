@@ -147,15 +147,15 @@ const Home = () => {
       <div className="stats-marquee">
         <div className="stat-unit">
           <h3>100%</h3>
-          <p>On-Device Privacy</p>
+          <p>Encrypted Sync</p>
         </div>
         <div className="stat-unit">
-          <h3>Zero</h3>
-          <p>Internet Required</p>
+          <h3>Cloud</h3>
+          <p>Backed Privacy</p>
         </div>
         <div className="stat-unit">
           <h3>Offline</h3>
-          <p>Sync Capability</p>
+          <p>Works Anywhere</p>
         </div>
         <div className="stat-unit">
           <h3>NGN</h3>
@@ -187,9 +187,9 @@ const Home = () => {
       <section className="editorial-row alt">
         <motion.div className="content-block" {...fadeInUp}>
           <span>Reporting</span>
-          <h2>WhatsApp <br/> Ready PDFs.</h2>
+          <h2>WhatsApp <br/> Ready Reports & Invoices.</h2>
           <p style={{ color: '#666', fontSize: '1.1rem', lineHeight: '1.6', marginBottom: '30px' }}>
-            Impress your business partners with professional audit logs. Generate clean PDF summaries and share them instantly with a single tap.
+            Impress your business partners with professional audit reports and invoices. Generate clean PDF summaries and share them instantly with a single tap.
           </p>
           <Link to="/reports" style={{
             background: 'transparent',
@@ -217,9 +217,9 @@ const Home = () => {
       <section className="editorial-row">
         <motion.div className="content-block" {...fadeInUp}>
           <span>Security</span>
-          <h2>Your Data. <br/> Local Only.</h2>
+          <h2>Your Data.<br/> Securely Synced.</h2>
           <p style={{ color: '#666', fontSize: '1.1rem', lineHeight: '1.6', marginBottom: '30px' }}>
-            We don't want your data. Koraq uses bank-grade local storage to keep your financial secrets exactly where they belong, on your device.
+            Koraq uses bank-grade encryption and secure cloud storage to keep your financial data safe and accessible only to you, across all your devices.
           </p>
           <div style={{ display: 'flex', gap: '15px' }}>
              <Globe size={32} color="#333" />
