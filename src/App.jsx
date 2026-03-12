@@ -31,6 +31,16 @@ const PageWrapper = ({ children }) => (
   </motion.div>
 );
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  React.useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [pathname]);
+
+  return null;
+}
+
 function AnimatedRoutes() {
   const location = useLocation();
 
@@ -53,6 +63,7 @@ function AnimatedRoutes() {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app-main-container">
         {/* The Header is global, appearing on every page */}
         <Header />

@@ -74,19 +74,19 @@ const Header = () => {
         }
 
         .kq-brand {
-          font-weight: 900;
-          font-size: 1.25rem;
-          letter-spacing: -0.04em;
           text-decoration: none;
-          color: #ff9800;
           display: flex;
           align-items: center;
-          gap: 6px;
-          transition: color 0.2s;
+          transition: opacity 0.2s;
         }
 
         .kq-brand:hover {
-          color: #fff;
+          opacity: 0.8;
+        }
+
+        .kq-brand img {
+          height: 130px;
+          width: auto;
         }
 
         .kq-brand-dot {
@@ -226,7 +226,7 @@ const Header = () => {
       <header className={`kq-header-container ${scrolled ? 'is-scrolled' : ''}`}>
         <nav className="kq-glass-nav">
           <Link to="/" className="kq-brand">
-            KORAQ <span className="kq-brand-dot"></span>
+            <img src="/images/koraq-logo.png" alt="Koraq" />
           </Link>
 
           <div className="kq-desktop-links">

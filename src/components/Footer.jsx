@@ -29,15 +29,26 @@ const Footer = () => {
         }
 
         .kq-f-logo {
-          font-weight: 900;
-          font-size: 1.4rem;
-          color: #fff;
           text-decoration: none;
-          letter-spacing: -0.04em;
           display: flex;
           align-items: center;
-          gap: 6px;
-          margin-bottom: 20px;
+          transition: opacity 0.2s;
+          height: 60px;
+          width: 190px;
+          overflow: hidden;
+          margin-bottom: 10px;
+        }
+
+        .kq-f-logo:hover {
+          opacity: 0.8;
+        }
+
+        .kq-f-logo img {
+          height: 130px;
+          width: auto;
+          display: block;
+          margin-top: -34px;
+          margin-left: -24px;
         }
 
         .kq-f-tagline {
@@ -142,7 +153,7 @@ const Footer = () => {
           {/* Brand Info */}
           <div className="kq-footer-brand">
             <Link to="/" className="kq-f-logo">
-              KORAQ <span style={{ width: 6, height: 6, background: '#ff9800', borderRadius: '50%' }} />
+              <img src="/images/koraq-logo.png" alt="Koraq" />
             </Link>
             <p className="kq-f-tagline">
               Empowering Nigeria's informal economy with precision profit tracking. Simple, secure, and built for the way you do business.

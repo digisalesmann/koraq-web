@@ -240,7 +240,7 @@ const Home = () => {
             Upgrade to <br/> <span style={{ color: '#ff9800' }}>Koraq Pro.</span>
           </h2>
           <p style={{ color: '#444', margin: '30px auto', maxWidth: '400px', fontWeight: 700 }}>
-            Join the elite circle of Nigerian merchants tracking with precision.
+            Turn daily sales into clear decisions. Track profit instantly, cut leakages, and scale with confidence.
           </p>
           {/* Use DownloadButton for working download */}
           <DownloadButton className="btn-primary" style={{ padding: '24px 64px', fontSize: '1.2rem', borderRadius: '20px' }}>
