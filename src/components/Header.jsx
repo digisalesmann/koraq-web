@@ -87,6 +87,7 @@ const Header = () => {
         .kq-brand img {
           height: 130px;
           width: auto;
+          margin-left: -24px;
         }
 
         .kq-brand-dot {
