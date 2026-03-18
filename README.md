@@ -21,7 +21,7 @@ This site showcases Koraq's features and design. All actions prompt users to dow
 
 ## Download
 
-[Download Koraq App](https://play.google.com/store/apps/details?id=com.koraq.app)
+[Download Koraq App](https://firebasestorage.googleapis.com/v0/b/koraq-9cd16.firebasestorage.app/o/Koraq.apk?alt=media&token=5eadc9ee-f8fc-4220-b754-9031aa62cbc4)
 
 ## Tech Stack
 

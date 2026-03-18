@@ -243,7 +243,7 @@ const Header = () => {
           </div>
 
           <div className="kq-actions">
-            <a href="https://firebasestorage.googleapis.com/v0/b/koraq-9cd16.firebasestorage.app/o/app-debug.apk?alt=media&token=57f0a2ee-6ac8-420c-bcbf-4596df38e285" className="btn-download">
+            <a href="https://firebasestorage.googleapis.com/v0/b/koraq-9cd16.firebasestorage.app/o/Koraq.apk?alt=media&token=5eadc9ee-f8fc-4220-b754-9031aa62cbc4" className="btn-download">
               Download <ArrowUpRight size={14} />
             </a>
             
@@ -277,7 +277,7 @@ const Header = () => {
             
             <div className="kq-mobile-footer">
               <p style={{ color: '#444', marginBottom: '1rem', fontSize: '0.9rem' }}>Business profit tracking, simplified.</p>
-              <a href="https://firebasestorage.googleapis.com/v0/b/koraq-9cd16.firebasestorage.app/o/app-debug.apk?alt=media&token=57f0a2ee-6ac8-420c-bcbf-4596df38e285" className="btn-download" style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
+              <a href="https://firebasestorage.googleapis.com/v0/b/koraq-9cd16.firebasestorage.app/o/Koraq.apk?alt=media&token=5eadc9ee-f8fc-4220-b754-9031aa62cbc4" className="btn-download" style={{ display: 'flex', justifyContent: 'center', padding: '16px' }}>
                 Download App
               </a>
             </div>
