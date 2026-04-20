@@ -30,6 +30,7 @@ const Header = () => {
     { to: '/features', label: 'Features' },
     { to: '/reports', label: 'Reports' },
     { to: '/pricing', label: 'Pricing' },
+    { to: '/dashboard', label: 'Dashboard' },
   ];
 
   return (

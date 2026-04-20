@@ -47,8 +47,8 @@ const HelpCentre = () => {
     answer: "Your data is safely stored in the cloud and tied to your account. Reinstalling the app and signing back in will restore all your transactions, debts, inventory, and settings."
   },
   {
-    question: "Does Koraq work offline?",
-    answer: "Yes. You can log transactions and view your records without an internet connection. Your data will automatically sync to the cloud the next time you come online."
+    question: "Does Koraq require a constant internet connection?",
+    answer: "Koraq requires an internet connection for most features, including logging transactions, syncing data, and accessing AI tools. Make sure you have a stable connection for the best experience."
   },
   {
     question: "What is included in the Premium plan?",

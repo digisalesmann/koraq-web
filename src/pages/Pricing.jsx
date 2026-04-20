@@ -212,12 +212,15 @@ const Pricing = () => {
 
         .pr-toggle {
           display: flex;
-          background: #111;
-          border: 1px solid rgba(255,255,255,0.07);
+          background: #161616;
           border-radius: 100px;
           padding: 4px;
           gap: 4px;
           position: relative;
+          overflow: hidden;
+          box-shadow: none;
+          border: none;
+          isolation: isolate;
         }
 
         .pr-toggle-btn {
@@ -227,12 +230,15 @@ const Pricing = () => {
           font-weight: 700;
           letter-spacing: 0.02em;
           border: none;
+          outline: none;
+          box-shadow: none;
           cursor: pointer;
           background: transparent;
-          color: #333;
+          color: #444;
           transition: color 0.2s;
           position: relative;
           z-index: 1;
+          -webkit-appearance: none;
         }
 
         .pr-toggle-btn.active { color: #000; }
@@ -246,6 +252,9 @@ const Pricing = () => {
           border-radius: 100px;
           transition: left 0.35s cubic-bezier(0.16, 1, 0.3, 1);
           z-index: 0;
+          pointer-events: none;
+          box-shadow: none;
+          border: none;
         }
 
         .pr-save-badge {
@@ -785,7 +794,6 @@ const Pricing = () => {
       {/* ── BILLING TOGGLE ────────────────────── */}
       <div className="pr-toggle-wrap">
         <div className="pr-toggle">
-          {/* sliding pill */}
           <div className="pr-toggle-pill" style={{
             left: yearly ? 'calc(50% + 2px)' : '4px',
           }} />

@@ -620,7 +620,7 @@ const Features = () => (
         initial={{ opacity: 0 }} animate={{ opacity: 1 }}
         transition={{ duration: 0.7 }}
       >
-        Built for Nigerian Traders
+        Built for African Traders
       </motion.p>
 
       <motion.h1
@@ -774,7 +774,7 @@ const Features = () => (
       title={<>Know Who<br />Owes You.<br />Always.</>}
       body="Record customer debts, set due dates, and send reminders directly from Koraq. Mark debts as settled when paid, keeping your receivables clean and your cash flow accurate."
       visual={
-        <LandShot src="/images/debt.jpeg" alt="Koraq debt tracker — ledger view" rotate={-1} />
+        <LandShot src="/images/7.jpg" alt="Koraq debt tracker — ledger view" rotate={-1} />
       }
     >
       <Bullets items={[

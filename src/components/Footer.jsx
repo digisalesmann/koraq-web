@@ -156,7 +156,7 @@ const Footer = () => {
               <img src="/images/koraq-logo.png" alt="Koraq" />
             </Link>
             <p className="kq-f-tagline">
-              Empowering Nigeria's informal economy with precision profit tracking. Simple, secure, and built for the way you do business.
+              Empowering Africa's traders with precision profit tracking. Simple, secure, and built for the way you do business.
             </p>
             <div style={{ display: 'flex', gap: '12px' }}>
               <div style={{ padding: '8px 12px', background: 'rgba(255,255,255,0.03)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.05)', fontSize: '0.8rem', color: '#888', display: 'flex', alignItems: 'center', gap: '6px' }}>

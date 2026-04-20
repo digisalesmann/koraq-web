@@ -482,7 +482,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.7 }}
         >
-          AI Business Ledger · Built for Nigeria
+          AI Business Ledger · Built for Africa
         </motion.p>
 
         <motion.h1
@@ -502,7 +502,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
         >
-          The high-fidelity business ledger for Nigerian traders. Track sales, manage inventory, and grow with AI.
+          The high-fidelity business ledger for African traders. Track sales, manage inventory, and grow with AI.
         </motion.p>
 
         <motion.div
@@ -544,7 +544,7 @@ const Home = () => {
         {[
           { val: '100', sup: '%',    lbl: 'End-to-End Encrypted' },
           { val: '6',   sup: ' FX',  lbl: 'Currencies Supported' },
-          { val: '300', sup: '–850', lbl: 'AI Credit Scoring'    },
+          { val: '10',  sup: '+',    lbl: 'Built-in Features'    },
           { val: '300', sup: '–850', lbl: 'AI Credit Scoring'    },
         ].map(({ val, sup, lbl }, i) => (
           <motion.div className="hx-num-cell" key={i} {...revealD(i * 0.07)}>
