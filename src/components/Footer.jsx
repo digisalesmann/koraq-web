@@ -190,7 +190,7 @@ const Footer = () => {
             <h4 className="kq-f-title">Get Started</h4>
             <ul className="kq-f-link-list">
               <li>
-                <a href="https://play.google.com" className="kq-f-link" style={{ color: '#fff', fontWeight: 600 }}>
+                <a href="https://play.google.com/store/apps/details?id=com.koraq.app.koraq" className="kq-f-link" style={{ color: '#fff', fontWeight: 600 }}>
                   Play Store <ArrowUpRight size={14} />
                 </a>
               </li>

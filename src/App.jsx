@@ -11,6 +11,8 @@ import Dashboard from './pages/Dashboard';
 import AddTransaction from './pages/AddTransaction';
 import History from './pages/History';
 import Reports from './pages/Reports';
+import Features from './pages/Features';
+import Pricing from './pages/Pricing';
 import HelpCenter from './pages/HelpCenter';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
@@ -52,6 +54,8 @@ function AnimatedRoutes() {
         <Route path="/add-transaction" element={<PageWrapper><AddTransaction /></PageWrapper>} />
         <Route path="/history" element={<PageWrapper><History /></PageWrapper>} />
         <Route path="/reports" element={<PageWrapper><Reports /></PageWrapper>} />
+        <Route path="/features" element={<PageWrapper><Features /></PageWrapper>} />
+        <Route path="/pricing" element={<PageWrapper><Pricing /></PageWrapper>} />
         <Route path="/helpcenter" element={<PageWrapper><HelpCenter /></PageWrapper>} />
         <Route path="/privacypolicy" element={<PageWrapper><PrivacyPolicy /></PageWrapper>} />
         <Route path="/termsofservice" element={<PageWrapper><TermsOfService /></PageWrapper>} />
